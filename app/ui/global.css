@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#pivotgrid {
+  margin-top: 20px;
+}
+
+.currency {
+  text-align: center;
+}
+
+.sigma-node {
+  width: 100px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sigma-container img {
+  width: 200px; /* Increase width */
+  height: 100px; /* Increase height */
+}

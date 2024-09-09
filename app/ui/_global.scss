@@ -1,0 +1,20 @@
+@use 'devextreme/scss/widgets/material/colors' with (
+  $color: 'blue',
+  $mode: 'light'
+);
+@use 'devextreme/scss/widgets/material/sizes' with (
+  $size: 'compact'
+);
+@use 'devextreme/scss/widgets/material/icons';
+@use 'devextreme/scss/widgets/material/widget';
+@use 'devextreme/scss/widgets/material/card';
+@use 'devextreme/scss/widgets/material/fieldset';
+@use 'devextreme/scss/widgets/material/common';
+@use 'devextreme/scss/widgets/base/resizable';
+@use 'devextreme/scss/widgets/base/draggable';
+@use 'devextreme/scss/widgets/base/ui';
+@use 'devextreme/scss/widgets/material';
+
+// @use 'devextreme/scss/bundles/dx.material.blue.light.scss';
+// @use 'devextreme/scss/bundles/dx.material.blue.dark.scss';
+// @use 'devextreme/scss/bundles/dx.material.teal.light.scss';
